@@ -108,11 +108,11 @@
 				E09FFC0820F6620700C6FE03 /* AppDelegate.swift */,
 				E09FFC3620F93AF300C6FE03 /* ConversionViewController.swift */,
 				E09FFC3B20F95F2700C6FE03 /* MapViewController.swift */,
+				E0A3198520FC341A001E7FF1 /* WebPageViewController.swift */,
 				E09FFC0C20F6620700C6FE03 /* Main.storyboard */,
 				E09FFC0F20F6620700C6FE03 /* Assets.xcassets */,
 				E09FFC1120F6620700C6FE03 /* LaunchScreen.storyboard */,
 				E09FFC1420F6620700C6FE03 /* Info.plist */,
-				E0A3198520FC341A001E7FF1 /* WebPageViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";

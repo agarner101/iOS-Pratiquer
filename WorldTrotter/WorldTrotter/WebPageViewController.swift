@@ -10,4 +10,8 @@ import UIKit
 
 class WebPageViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("WebPageVC view loaded")
+    }
 }
