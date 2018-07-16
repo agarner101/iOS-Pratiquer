@@ -17,7 +17,7 @@ class WebPageViewController: UIViewController {
         super.viewDidLoad()
         print("WebPageVC view loaded")
         
-        let myUrl = URL(string: "http://www.google.com")
+        let myUrl = URL(string: "http://apple.com")
         let myRequest = URLRequest(url: myUrl!)
         webView.load(myRequest)
         
