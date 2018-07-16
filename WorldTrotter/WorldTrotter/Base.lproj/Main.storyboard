@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="1958" y="132"/>
         </scene>
-        <!--Web Page View Controller-->
+        <!--Book-->
         <scene sceneID="RlR-uE-zvu">
             <objects>
                 <viewController id="HDs-vQ-iuv" customClass="WebPageViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Da-FX-41g">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -124,6 +124,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ecN-Cr-MIO"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Book" id="duS-tD-wAD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x61-Un-7Dq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,6 +143,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Io2-HT-lsX"/>
                         <segue destination="pwJ-3m-GKZ" kind="relationship" relationship="viewControllers" id="5mC-5h-O6k"/>
+                        <segue destination="HDs-vQ-iuv" kind="relationship" relationship="viewControllers" id="M2z-zR-fas"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bC-fL-nxY" userLabel="First Responder" sceneMemberID="firstResponder"/>
