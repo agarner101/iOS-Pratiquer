@@ -125,6 +125,9 @@
                         <viewLayoutGuide key="safeArea" id="ecN-Cr-MIO"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Book" id="duS-tD-wAD"/>
+                    <connections>
+                        <outlet property="webView" destination="3Da-FX-41g" id="UoJ-zP-cQZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x61-Un-7Dq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
